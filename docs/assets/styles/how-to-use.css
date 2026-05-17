@@ -1,0 +1,54 @@
+.how-to-use{
+    background-color: #1c222b;
+    border-radius: var(--radius-l);
+    overflow: hidden;
+}
+
+.how-to-use-header{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--xs) var(--m);
+    text-transform: capitalize;
+}
+
+.how-to-use-title{
+    display: flex;
+    gap: var(--m);
+    align-items: center;
+}
+
+.how-to-use-title-button-html,
+.how-to-use-title-button-css,
+.how-to-use-button-copy{
+    padding: 3px var(--m);
+    border-radius: var(--radius-s);
+    border: 1px solid #a5c3f3;
+    font-size: var(--s);
+    color: #a5c3f3;
+    cursor: pointer;
+}
+
+.how-to-use-title-button-html:hover,
+.how-to-use-title-button-css:hover,
+.how-to-use-button-copy:hover{
+    color: whitesmoke;
+    background-color: #0d367e;
+    border-color: #0d367e;
+}
+
+.hljs::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+@media screen and (max-width: 800px) {
+    .how-to-use, #introduction{
+        max-width: 80dvw;
+    }
+
+    #introduction{
+        overflow: scroll;
+    }
+}

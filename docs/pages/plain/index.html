@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iamra Css</title>
+    <link rel="icon" type="image/svg+xml" href="./../../assets/svg/iamra-logo.svg">
+    <link rel="stylesheet" href="../../assets/styles/style.css">
+    <link rel="stylesheet" href="../../assets/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../../assets/styles/how-to-use.css">
+    <script src="../../assets/styles/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav class="bottom-nav">
+    <a class="bottom-nav-item active">Plain</a>
+    <div class="bottom-nav-items">
+        <label for="bottom-nav-check" class="bottom-nav-item">Laravel</label>
+        <input id="bottom-nav-check" type="checkbox" class="bottom-nav-items-check" />
+        <div class="bottom-nav-items-elements-modal">
+            <div class="bottom-nav-items-elements-content">
+                <label for="bottom-nav-check" class="bottom-nav-items-elements-close">&Cross;</label>
+                <a href="./../laravel/inertia/vue" class="bottom-nav-item">Vue</a>
+                <a href="./../laravel/inertia/react-js" class="bottom-nav-item">React Js</a>
+                <a href="./../../laravel/blade" class="bottom-nav-item">Blade</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-nav-items">
+        <label for="bottom-nav-check-2" class="bottom-nav-item">Vite</label>
+        <input id="bottom-nav-check-2" type="checkbox" class="bottom-nav-items-check" />
+        <div class="bottom-nav-items-elements-modal">
+            <div class="bottom-nav-items-elements-content">
+                <label for="bottom-nav-check-2" class="bottom-nav-items-elements-close">&Cross;</label>
+                <a href="https://https://ilhamrhmtkbr.github.io/boilerplate-vue-plain/"
+                   class="bottom-nav-item">Vue</a>
+                <a href="https://https://ilhamrhmtkbr.github.io/boilerplate-react-js-plain/" class="bottom-nav-item">React
+                    Js</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<aside class="sidebar">
+    <a href="./../../" class="sidebar-header">
+        <div class="sidebar-header-logo">
+            <img class="sidebar-header-logo-img" alt="logo" src="../../assets/svg/iamra-logo.svg">
+        </div>
+        <div class="sidebar-header-title">Iamra</div>
+    </a>
+    <div class="sidebar-menu">
+        <a class="sidebar-menu-item" href="#introduction" data-title="Introduction">
+            <svg class="sidebar-menu-item-svg">
+                <use xlink:href="../../assets/svg/sprite.svg#introduction"></use>
+            </svg>
+            <span>Introduction</span>
+        </a>
+    </div>
+    <div class="sidebar-button-hide sidebar-menu-item" onclick="sidebarMinify()">
+        <svg class="sidebar-menu-item-svg" xmlns="http://www.w3.org/2000/svg" width="35.52" height="35.52"
+             viewBox="0 0 20 20" shape-rendering="geometricPrecision" image-rendering="optimizeQuality"
+             fill-rule="evenodd">
+            <path d="M10 0h9s1 1 1 2v17l-1 1h-9l-1-1V2c0-1 1-2 1-2zm8 14v2 1h-1l-2-1v-1l2-1c0-1 0-1 1-1v1z"/>
+            <rect width="7.211" height="20.232" rx="2" ry="4"/>
+        </svg>
+        <span>Hide</span>
+    </div>
+</aside>
+
+<main class="container">
+    <header class="container-header">
+        <div class="container-header-button-switch-theme" onclick="switchTheme()">Dark Mode</div>
+        <div class="container-header-nav">
+            <a class="container-header-nav-item active">
+                <span class="container-header-nav-item-text">Plain</span>
+            </a>
+            <div class="container-header-nav-items">
+                <div class="container-header-nav-item">Laravel</div>
+                <div class="container-header-nav-items-element">
+                    <a href="./../laravel/inertia/vue" class="container-header-nav-item">
+                        <span class="container-header-nav-item-text">Vue</span>
+                    </a>
+                    <a href="./../laravel/inertia/react-js" class="container-header-nav-item">
+                        <span class="container-header-nav-item-text">React Js</span>
+                    </a>
+                    <a href="./../laravel/blade" class="container-header-nav-item">
+                        <span class="container-header-nav-item-text">Blade</span>
+                    </a>
+                </div>
+            </div>
+            <div class="container-header-nav-items">
+                <div class="container-header-nav-item">Vite</div>
+                <div class="container-header-nav-items-element">
+                    <a href="https://https://ilhamrhmtkbr.github.io/boilerplate-vue-plain/"
+                       class="container-header-nav-item">
+                        <span class="container-header-nav-item-text">Vue</span>
+                    </a>
+                    <a href="https://https://ilhamrhmtkbr.github.io/boilerplate-react-js-plain/"
+                       class="container-header-nav-item">
+                        <span class="container-header-nav-item-text">React Js</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class='container-header-button-show-sidebar' onclick="showMenu()">
+            <svg id='get-menu' viewBox="0 0 100 100">
+                <path class="line line1"
+                      d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
+                <path class="line line2" d="M 20,50 H 80"/>
+                <path class="line line3"
+                      d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"/>
+            </svg>
+        </div>
+    </header>
+    <section class="container-content">
+        <div class="max-width-1000 card-wrapper" id="introduction">
+            <div class="text-title">Introduction</div>
+
+            <p>
+                Dokumentasi ini membahas implementasi komponen menggunakan
+                HTML Plain.
+            </p>
+
+            <p>
+                Sebelum memulai, pastikan seluruh environment dan dependensi
+                yang dibutuhkan telah terpasang dengan benar.
+            </p>
+
+            <p>
+                Letakkan font
+                <code>Poppins</code>
+                pada direktori
+                <code>public/assets/fonts</code>.
+            </p>
+
+            <p>
+                Letakkan file logo pada
+                <code>public/assets/images/logo.svg</code>.
+            </p>
+        </div>
+    </section>
+    <footer>
+    </footer>
+</main>
+<script>
+    function sidebarMinify() {
+        document.getElementsByClassName("sidebar")[0].classList.toggle("collapse")
+        document.getElementsByClassName("container")[0].classList.toggle("expanded")
+    }
+
+    function switchTheme() {
+        document.getElementsByTagName("body")[0].classList.toggle("dark-mode")
+    }
+
+    function showMenu() {
+        document.getElementsByClassName("sidebar")[0].classList.toggle("show")
+        let iconGetMenu = document.getElementById('get-menu');
+        iconGetMenu.classList.toggle('opened')
+    }
+
+    function showModal() {
+        let modal = document.getElementsByClassName('modal')[0];
+        modal.classList.toggle('hide')
+    }
+
+    function showToast() {
+        let toast = document.getElementsByClassName('toast')[0];
+        toast.classList.toggle('display-none')
+    }
+
+    function showBottomSheet() {
+        let bottomSheet = document.getElementsByClassName('bottom-sheet')[0];
+        bottomSheet.classList.toggle('active')
+    }
+</script>
+<script type="module" src="setup-sidebar.js"></script>
+<script type="module" src="setup-content.js"></script>
+</body>
+</html>
