@@ -8,19 +8,42 @@
     <link rel="stylesheet" href="./assets/styles/how-to-use.css">
     <link rel="stylesheet" href="./assets/styles/atom-one-dark.min.css">
     <script src="./assets/styles/highlight.min.js"></script>
+    <style>
+        .header-title{
+            font-size: calc(var(--xxxx) * 2);
+        }
+
+        .header-desc {
+            font-size: var(--l);
+        }
+
+        @media screen and (max-width: 800px) {
+            .header-title{
+                font-size: var(--l);
+            }
+
+            .header-desc {
+                font-size: var(--m);
+            }
+
+            .card-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
     <script>hljs.highlightAll();</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="min-height: 100dvh; margin-bottom: 25dvh" class="grid-start">
 <div class="header finisher-header w-full flex-aic-jcc" style="height:50dvh; padding: var(--m); box-sizing: border-box">
     <div class="h-max-content max-width-1000">
-        <h1 class="text-white font-bold" style="font-size: calc(var(--xxxx) * 2)">Iamra Css</h1>
-        <p class="text-white font-light" style="font-size: var(--l)">A minimal, component-based CSS framework for modern
+        <h1 class="text-white font-bold header-title">Iamra Css</h1>
+        <p class="text-white font-light header-desc">A minimal, component-based CSS framework for modern
             interfaces—30KB, zero JavaScript, fully loaded UI.</p>
     </div>
 </div>
 <div class="card-layout max-width-1000 ps-center padding-top-ideal-distance-to-header box-border"
-     style="padding-inline: var(--m); grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));">
+     style="padding-inline: var(--m);">
     <div class="card-wrapper">
         <h2 class="font-medium">Plain</h2>
         <div class="card-wrapper replace-shadow-with-border">
