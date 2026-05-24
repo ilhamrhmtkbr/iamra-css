@@ -7,22 +7,22 @@ export const data = [
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../../assets/styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@iamra/css/dist/style.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav class="navigation">
-    <a class="navigation-item active">Nav 1</a>
-    <a class="navigation-item">Nav 2</a>
-    <div class="navigation-items">
-        <label class="navigation-item" for="navigation-items-check-1">Nav Items</label>
-        <input type="checkbox" class="navigation-items-check" id="navigation-items-check-1">
-        <div class="navigation-items-elements-modal">
-            <div class="navigation-items-elements-content">
-                <label class="navigation-items-elements-close" for="navigation-items-check-1">&Cross;</label>
-                <a class="navigation-item active">Nav 3</a>
-                <a class="navigation-item">Nav 4</a>
-                <a class="navigation-item">Nav 5</a>
+<nav class="bottom-nav">
+    <a class="bottom-nav-item active">Nav 1</a>
+    <a class="bottom-nav-item">Nav 2</a>
+    <div class="bottom-nav-items">
+        <label class="bottom-nav-item" for="bottom-nav-items-check-1">Nav Items</label>
+        <input type="checkbox" class="bottom-nav-items-check" id="bottom-nav-items-check-1">
+        <div class="bottom-nav-items-elements-modal">
+            <div class="bottom-nav-items-elements-content">
+                <label class="bottom-nav-items-elements-close" for="bottom-nav-items-check-1">&Cross;</label>
+                <a class="bottom-nav-item active">Nav 3</a>
+                <a class="bottom-nav-item">Nav 4</a>
+                <a class="bottom-nav-item">Nav 5</a>
             </div>
         </div>
     </div>
@@ -36,12 +36,6 @@ export const data = [
     </div>
     <div class="sidebar-menu">
         <a class="sidebar-menu-item active" data-title="Item 1">
-            <svg class="sidebar-menu-item-svg">
-                <use></use>
-            </svg>
-            <span>Item 1</span>
-        </a>
-        <a class="sidebar-menu-item">
             <svg class="sidebar-menu-item-svg">
                 <use></use>
             </svg>
@@ -61,8 +55,11 @@ export const data = [
         </details>
     </div>
     <div class="sidebar-button-hide sidebar-menu-item" onclick="sidebarMinify()">
-        <svg class="sidebar-menu-item-svg">
-            <use></use>
+        <svg class="sidebar-menu-item-svg" xmlns="http://www.w3.org/2000/svg" width="35.52" height="35.52"
+             viewBox="0 0 20 20" shape-rendering="geometricPrecision" image-rendering="optimizeQuality"
+             fill-rule="evenodd">
+            <path d="M10 0h9s1 1 1 2v17l-1 1h-9l-1-1V2c0-1 1-2 1-2zm8 14v2 1h-1l-2-1v-1l2-1c0-1 0-1 1-1v1z"/>
+            <rect width="7.211" height="20.232" rx="2" ry="4"/>
         </svg>
         <span>Hide</span>
     </div>
