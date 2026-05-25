@@ -1,6 +1,6 @@
 {
   "name": "@iamra/css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "by Ilham Rahmat Akbar",
   "main": "dist/style.css",
   "style": "dist/style.css",
