@@ -1971,6 +1971,8 @@ td.action :hover {
     text-transform: capitalize;
     font-size: var(--x);
     font-family: Medium, ui-sans-serif;
+    max-width: 77dvw;
+    overflow: auto;
 }
 
 .text-title::first-letter {
