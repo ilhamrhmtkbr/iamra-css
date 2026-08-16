@@ -315,6 +315,11 @@ export const data = [
     {
         title: 'data',
         html: `
+                <div class="data-info data-primary">
+                    <h2>Box Info</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus vel lectus nec hendrerit. Pellentesque sodales neque ut ornare rhoncus. Phasellus a quam lacus. Morbi sit amet quam quam. Aliquam malesuada quam bibendum dignissim sagittis. Integer pharetra quam ut neque tristique facilisis. Etiam volutpat, metus nec laoreet condimentum, eros lectus scelerisque mi, at consequat dolor metus nec purus. Nullam nec viverra odio. In tincidunt leo vel magna pharetra, eget convallis est finibus. Quisque dignissim placerat vestibulum. Aenean sit amet dignissim erat, a accumsan dui.</p>
+                </div>
+                <br />
                 <div class="data">
                     <div class="data-key">Name</div>
                     <div class="data-value">Ilham Rahmat Akbar</div>

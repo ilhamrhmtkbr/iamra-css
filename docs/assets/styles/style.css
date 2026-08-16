@@ -1168,6 +1168,39 @@ ol {
 /* Card */
 
 /* Data */
+.data-info{
+    border-left: 4px solid transparent;
+    border-radius: var(--radius-x);
+    padding: var(--m);
+    max-width: 77dvw;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.data-primary{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--transprimary-color);
+}
+
+.data-primary{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--transprimary-color);
+}
+
+.data-primary{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--transprimary-color);
+}
+
+.data-primary{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--transprimary-color);
+}
+
 .data {
     padding: var(--xs) var(--m);
     border-radius: var(--radius-m);
@@ -1972,7 +2005,8 @@ td.action :hover {
     font-size: var(--x);
     font-family: Medium, ui-sans-serif;
     max-width: 77dvw;
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 .text-title::first-letter {

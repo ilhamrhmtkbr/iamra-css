@@ -35,20 +35,11 @@ function provideElement(title, html, css, index, subIndex = 0) {
     }
 
     function getHtml() {
-        if (data[index].hasOwnProperty('data')) {
-            if (!data[index]?.data[subIndex]?.example) {
-                return ''
-            } else {
+        if (!data[index].title.includes('layout')) {
                 return `<h3>Example</h3>
             <div class="example">${html}</div>`
-            }
         } else {
-            if (!data[index].example) {
-                return ''
-            } else {
-                return `<h3>Example</h3>
-            <div class="example">${html}</div>`
-            }
+            return ''
         }
     }
 
