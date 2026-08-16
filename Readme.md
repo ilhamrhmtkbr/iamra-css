@@ -15,12 +15,12 @@ download manual css
 
 ### Opsi 3
 ```
-https://cdn.jsdelivr.net/npm/@iamra/css/dist/style.css
+https://cdn.jsdelivr.net/npm/@iamra/css/dist/style.min.css
 ```
 
 ### Opsi 4
 ```
-https://unpkg.com/@iamra/css/dist/style.css
+https://unpkg.com/@iamra/css/dist/style.min.css
 ```
 
 ## 🌐 Demo

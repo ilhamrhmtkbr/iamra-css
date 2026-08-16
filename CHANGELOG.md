@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.4] - 2026-08-16
+
+### Fixed
+- Link ke file css di readme
+- css class data-info lupa di minify
+
 ## [1.0.3] - 2026-08-16
 
 ### Added
